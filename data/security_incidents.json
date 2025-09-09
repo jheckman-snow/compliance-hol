@@ -1,0 +1,576 @@
+[
+{
+  "incidentId": "INC-20250115-001",
+  "incidentType": "Phishing Attack",
+  "status": "Closed",
+  "clientId": 1,
+  "detectionTime": "2025-01-15T09:30:00Z",
+  "resolutionTime": "2025-01-15T16:45:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "SVR-PROD-01",
+      "assetType": "Server",
+      "assetOwner": "IT Operations"
+    },
+    {
+      "assetId": "USR-JSMITH",
+      "assetType": "User Account",
+      "assetOwner": "HR Department"
+    }
+  ],
+  "mitigationSteps": [
+    "Isolated affected server.",
+    "Forced password reset for user account.",
+    "Sent company-wide phishing awareness email."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "Medium",
+    "score": 75
+  },
+  "complianceImpact": [
+    "GDPR", "PCI DSS"
+  ]
+},
+{
+  "incidentId": "INC-20250118-002",
+  "incidentType": "Data Breach",
+  "status": "In Progress",
+  "clientId": 2,
+  "detectionTime": "2025-01-18T14:20:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "DB-PATIENT-01",
+      "assetType": "Database",
+      "assetOwner": "Data Management"
+    }
+  ],
+  "mitigationSteps": [
+    "Contained database access.",
+    "Notified incident response team.",
+    "Initiated forensic investigation."
+  ],
+  "riskAssessment": {
+    "impact": "Critical",
+    "likelihood": "Low",
+    "score": 85
+  },
+  "complianceImpact": [
+    "HIPAA", "ISO 27001"
+  ]
+},
+{
+  "incidentId": "INC-20250120-003",
+  "incidentType": "Malware Infection",
+  "status": "Closed",
+  "clientId": 3,
+  "detectionTime": "2025-01-20T11:15:00Z",
+  "resolutionTime": "2025-01-20T18:30:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "WS-DEV-042",
+      "assetType": "Workstation",
+      "assetOwner": "Development Team"
+    }
+  ],
+  "mitigationSteps": [
+    "Quarantined infected workstation.",
+    "Ran full system antivirus scan.",
+    "Rebuilt workstation from clean image."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "High",
+    "score": 60
+  },
+  "complianceImpact": [
+    "CCPA", "GDPR"
+  ]
+},
+{
+  "incidentId": "INC-20250122-004",
+  "incidentType": "Unauthorized Access",
+  "status": "Open",
+  "clientId": 4,
+  "detectionTime": "2025-01-22T08:45:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "FIN-SYS-01",
+      "assetType": "Financial System",
+      "assetOwner": "Finance Department"
+    }
+  ],
+  "mitigationSteps": [
+    "Disabled suspicious user accounts.",
+    "Enhanced monitoring implemented.",
+    "External security consultant engaged."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "Medium",
+    "score": 78
+  },
+  "complianceImpact": [
+    "GDPR", "MiFID II"
+  ]
+},
+{
+  "incidentId": "INC-20250125-005",
+  "incidentType": "System Outage",
+  "status": "Closed",
+  "clientId": 5,
+  "detectionTime": "2025-01-25T13:30:00Z",
+  "resolutionTime": "2025-01-25T15:45:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "MED-PORTAL-01",
+      "assetType": "Web Portal",
+      "assetOwner": "IT Infrastructure"
+    }
+  ],
+  "mitigationSteps": [
+    "Failover to backup systems.",
+    "Root cause analysis completed.",
+    "Hardware replacement scheduled."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Low",
+    "score": 45
+  },
+  "complianceImpact": [
+    "GDPR", "MDR"
+  ]
+},
+{
+  "incidentId": "INC-20250127-006",
+  "incidentType": "Insider Threat",
+  "status": "In Progress",
+  "clientId": 6,
+  "detectionTime": "2025-01-27T16:20:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "USR-MWILSON",
+      "assetType": "User Account",
+      "assetOwner": "Security Team"
+    },
+    {
+      "assetId": "FILE-SHARE-03",
+      "assetType": "File Share",
+      "assetOwner": "IT Operations"
+    }
+  ],
+  "mitigationSteps": [
+    "Suspended employee access.",
+    "Initiated HR investigation.",
+    "Enhanced file access monitoring."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "Medium",
+    "score": 82
+  },
+  "complianceImpact": [
+    "GDPR", "ISO 27001"
+  ]
+},
+{
+  "incidentId": "INC-20250130-007",
+  "incidentType": "DDoS Attack",
+  "status": "Closed",
+  "clientId": 7,
+  "detectionTime": "2025-01-30T10:15:00Z",
+  "resolutionTime": "2025-01-30T12:30:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "WEB-LB-01",
+      "assetType": "Load Balancer",
+      "assetOwner": "Network Operations"
+    }
+  ],
+  "mitigationSteps": [
+    "Activated DDoS protection.",
+    "Blocked malicious IP ranges.",
+    "Scaled up infrastructure capacity."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Medium",
+    "score": 55
+  },
+  "complianceImpact": [
+    "MAS Guidelines", "ISO 27001"
+  ]
+},
+{
+  "incidentId": "INC-20250201-008",
+  "incidentType": "Physical Security Breach",
+  "status": "Closed",
+  "clientId": 8,
+  "detectionTime": "2025-02-01T07:30:00Z",
+  "resolutionTime": "2025-02-01T09:45:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "DC-RACK-05",
+      "assetType": "Server Rack",
+      "assetOwner": "Facilities"
+    }
+  ],
+  "mitigationSteps": [
+    "Secured data center access.",
+    "Reviewed security camera footage.",
+    "Enhanced badge access controls."
+  ],
+  "riskAssessment": {
+    "impact": "Low",
+    "likelihood": "Low",
+    "score": 25
+  },
+  "complianceImpact": [
+    "HIPAA", "NIST Cybersecurity Framework"
+  ]
+},
+{
+  "incidentId": "INC-20250203-009",
+  "incidentType": "Ransomware",
+  "status": "In Progress",
+  "clientId": 9,
+  "detectionTime": "2025-02-03T19:45:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "SVR-FILE-01",
+      "assetType": "File Server",
+      "assetOwner": "IT Operations"
+    },
+    {
+      "assetId": "SVR-FILE-02",
+      "assetType": "File Server",
+      "assetOwner": "IT Operations"
+    }
+  ],
+  "mitigationSteps": [
+    "Isolated affected servers.",
+    "Initiated backup recovery process.",
+    "Engaged cybersecurity incident response team."
+  ],
+  "riskAssessment": {
+    "impact": "Critical",
+    "likelihood": "Medium",
+    "score": 90
+  },
+  "complianceImpact": [
+    "APPI", "ISO 27001", "SOC 2"
+  ]
+},
+{
+  "incidentId": "INC-20250205-010",
+  "incidentType": "Configuration Error",
+  "status": "Closed",
+  "clientId": 10,
+  "detectionTime": "2025-02-05T12:20:00Z",
+  "resolutionTime": "2025-02-05T14:15:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "FW-EDGE-01",
+      "assetType": "Firewall",
+      "assetOwner": "Network Security"
+    }
+  ],
+  "mitigationSteps": [
+    "Corrected firewall rules.",
+    "Implemented configuration review process.",
+    "Updated change management procedures."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Medium",
+    "score": 50
+  },
+  "complianceImpact": [
+    "GDPR", "DORA"
+  ]
+},
+{
+  "incidentId": "INC-20250208-011",
+  "incidentType": "SQL Injection",
+  "status": "Closed",
+  "clientId": 11,
+  "detectionTime": "2025-02-08T15:30:00Z",
+  "resolutionTime": "2025-02-08T20:45:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "APP-PORTAL-01",
+      "assetType": "Web Application",
+      "assetOwner": "Development Team"
+    }
+  ],
+  "mitigationSteps": [
+    "Patched application vulnerability.",
+    "Conducted security code review.",
+    "Implemented input validation."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "Low",
+    "score": 70
+  },
+  "complianceImpact": [
+    "FDA CFR", "GxP", "HIPAA"
+  ]
+},
+{
+  "incidentId": "INC-20250210-012",
+  "incidentType": "Social Engineering",
+  "status": "Open",
+  "clientId": 12,
+  "detectionTime": "2025-02-10T11:00:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "USR-ADMIN01",
+      "assetType": "Admin Account",
+      "assetOwner": "IT Administration"
+    }
+  ],
+  "mitigationSteps": [
+    "Reset admin credentials.",
+    "Conducted security awareness training.",
+    "Implemented additional MFA controls."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "High",
+    "score": 85
+  },
+  "complianceImpact": [
+    "SOC 2", "CCPA"
+  ]
+},
+{
+  "incidentId": "INC-20250212-013",
+  "incidentType": "Data Loss",
+  "status": "Closed",
+  "clientId": 13,
+  "detectionTime": "2025-02-12T09:15:00Z",
+  "resolutionTime": "2025-02-12T17:30:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "LAPTOP-NHG-042",
+      "assetType": "Laptop",
+      "assetOwner": "Clinical Staff"
+    }
+  ],
+  "mitigationSteps": [
+    "Remotely wiped device.",
+    "Reviewed data backup status.",
+    "Enhanced device encryption policies."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Medium",
+    "score": 58
+  },
+  "complianceImpact": [
+    "GDPR", "MDR"
+  ]
+},
+{
+  "incidentId": "INC-20250215-014",
+  "incidentType": "Email Compromise",
+  "status": "In Progress",
+  "clientId": 14,
+  "detectionTime": "2025-02-15T14:45:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "EMAIL-SYS-01",
+      "assetType": "Email System",
+      "assetOwner": "IT Communications"
+    }
+  ],
+  "mitigationSteps": [
+    "Isolated compromised accounts.",
+    "Implemented enhanced email filtering.",
+    "Conducted phishing simulation training."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "High",
+    "score": 65
+  },
+  "complianceImpact": [
+    "APRA", "Privacy Act"
+  ]
+},
+{
+  "incidentId": "INC-20250218-015",
+  "incidentType": "Supply Chain Attack",
+  "status": "Open",
+  "clientId": 15,
+  "detectionTime": "2025-02-18T08:30:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "MFG-CTRL-01",
+      "assetType": "Manufacturing Control System",
+      "assetOwner": "Production Operations"
+    }
+  ],
+  "mitigationSteps": [
+    "Isolated affected systems.",
+    "Contacted software vendor.",
+    "Initiated third-party security assessment."
+  ],
+  "riskAssessment": {
+    "impact": "Critical",
+    "likelihood": "Low",
+    "score": 88
+  },
+  "complianceImpact": [
+    "NIST CSF", "ISO 27001", "CMMC"
+  ]
+},
+{
+  "incidentId": "INC-20250220-016",
+  "incidentType": "API Security Incident",
+  "status": "Closed",
+  "clientId": 16,
+  "detectionTime": "2025-02-20T16:20:00Z",
+  "resolutionTime": "2025-02-20T21:45:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "API-GATEWAY-01",
+      "assetType": "API Gateway",
+      "assetOwner": "Platform Engineering"
+    }
+  ],
+  "mitigationSteps": [
+    "Updated API authentication mechanisms.",
+    "Implemented rate limiting.",
+    "Conducted API security audit."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Medium",
+    "score": 52
+  },
+  "complianceImpact": [
+    "ANPD LGPD", "ISO 27001"
+  ]
+},
+{
+  "incidentId": "INC-20250222-017",
+  "incidentType": "Cloud Misconfiguration",
+  "status": "Closed",
+  "clientId": 17,
+  "detectionTime": "2025-02-22T13:10:00Z",
+  "resolutionTime": "2025-02-22T15:30:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "S3-BUCKET-DOCS",
+      "assetType": "Cloud Storage",
+      "assetOwner": "DevOps Team"
+    }
+  ],
+  "mitigationSteps": [
+    "Corrected bucket permissions.",
+    "Implemented cloud security monitoring.",
+    "Enhanced deployment review process."
+  ],
+  "riskAssessment": {
+    "impact": "High",
+    "likelihood": "Medium",
+    "score": 72
+  },
+  "complianceImpact": [
+    "Basel III", "AML"
+  ]
+},
+{
+  "incidentId": "INC-20250225-018",
+  "incidentType": "Mobile Device Theft",
+  "status": "Closed",
+  "clientId": 18,
+  "detectionTime": "2025-02-25T18:45:00Z",
+  "resolutionTime": "2025-02-25T20:15:00Z",
+  "affectedAssets": [
+    {
+      "assetId": "MOBILE-DTH-089",
+      "assetType": "Mobile Device",
+      "assetOwner": "Field Operations"
+    }
+  ],
+  "mitigationSteps": [
+    "Remotely wiped device.",
+    "Filed police report.",
+    "Updated mobile device management policies."
+  ],
+  "riskAssessment": {
+    "impact": "Low",
+    "likelihood": "Medium",
+    "score": 35
+  },
+  "complianceImpact": [
+    "UAE PDPL", "ISO 27001"
+  ]
+},
+{
+  "incidentId": "INC-20250228-019",
+  "incidentType": "Network Intrusion",
+  "status": "In Progress",
+  "clientId": 19,
+  "detectionTime": "2025-02-28T22:30:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "NET-CORE-01",
+      "assetType": "Core Network",
+      "assetOwner": "Network Engineering"
+    }
+  ],
+  "mitigationSteps": [
+    "Segmented network traffic.",
+    "Enhanced intrusion detection.",
+    "Engaged external forensics team."
+  ],
+  "riskAssessment": {
+    "impact": "Critical",
+    "likelihood": "Low",
+    "score": 92
+  },
+  "complianceImpact": [
+    "GDPR", "ISO 27001", "CBAM"
+  ]
+},
+{
+  "incidentId": "INC-20250302-020",
+  "incidentType": "Backup System Failure",
+  "status": "Open",
+  "clientId": 20,
+  "detectionTime": "2025-03-02T06:15:00Z",
+  "resolutionTime": null,
+  "affectedAssets": [
+    {
+      "assetId": "BACKUP-SYS-01",
+      "assetType": "Backup System",
+      "assetOwner": "Data Protection"
+    }
+  ],
+  "mitigationSteps": [
+    "Activated secondary backup system.",
+    "Investigating hardware failure.",
+    "Reviewing backup retention policies."
+  ],
+  "riskAssessment": {
+    "impact": "Medium",
+    "likelihood": "Low",
+    "score": 48
+  },
+  "complianceImpact": [
+    "PIPEDA", "PHIPA", "ISO 27799"
+  ]
+}]

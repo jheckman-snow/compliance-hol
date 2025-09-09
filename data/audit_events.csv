@@ -1,0 +1,28 @@
+audit_id,audit_name,audit_type,scheduled_date,client_id,auditor,compliance_scope,status
+1,GDPR Compliance Assessment,Internal Audit,2025-03-15,1,Sarah Mitchell,Data Protection|Privacy Controls,Scheduled
+2,PCI DSS Validation,External Audit,2025-05-20,1,Compliance Partners LLC,Payment Card Security,Scheduled
+3,HIPAA Security Review,Internal Audit,2025-04-10,2,Michael Rodriguez,Access Controls|Patient Data,Scheduled
+4,ISO 27001 Certification Audit,External Audit,2025-06-01,2,BSI Group,Information Security Management,Scheduled
+5,CCPA Privacy Assessment,Internal Audit,2025-05-18,3,Jennifer Park,Consumer Rights|Data Handling,Scheduled
+6,SOX Internal Controls Testing,External Audit,2025-02-28,1,Deloitte & Touche,Financial Reporting Controls,Scheduled
+7,GDPR Annual Review,Internal Audit,2025-01-22,4,Emma Thompson,Data Subject Rights|Breach Response,Scheduled
+8,MiFID II Compliance Check,External Audit,2025-03-08,4,KPMG,Investment Services|Client Protection,Scheduled
+9,MDR Medical Device Audit,External Audit,2025-04-25,5,TÜV SÜD,Medical Device Safety|Quality Systems,Scheduled
+10,NIS2 Cybersecurity Assessment,Internal Audit,2025-06-12,6,Hans Weber,Network Security|Incident Response,Scheduled
+11,MAS Technology Risk Review,External Audit,2025-02-15,7,EY Singapore,Operational Risk|Technology Controls,Scheduled
+12,NIST Cybersecurity Evaluation,Internal Audit,2025-03-20,8,David Kim,Cybersecurity Framework|Risk Management,Scheduled
+13,APPI Privacy Compliance Audit,External Audit,2025-04-18,9,PWC Japan,Personal Information Protection,Scheduled
+14,Solvency II Capital Assessment,External Audit,2025-05-05,10,Mazars France,Capital Requirements|Risk Management,Scheduled
+15,FDA GxP Quality Audit,External Audit,2025-06-30,11,SGS Life Sciences,Good Manufacturing Practices,Scheduled
+16,SOC 2 Type II Examination,External Audit,2025-03-12,12,Grant Thornton,Security|Availability|Confidentiality,Scheduled
+17,GDPR Data Processing Review,Internal Audit,2025-02-08,13,Lisa Andersson,Lawful Basis|Data Minimization,Scheduled
+18,APRA Prudential Review,External Audit,2025-04-15,14,AUSTRAC,Capital Adequacy|Operational Risk,Scheduled
+19,CMMC Cybersecurity Assessment,External Audit,2025-05-22,15,Raytheon Intelligence,Defense Supply Chain Security,Scheduled
+20,LGPD Privacy Impact Assessment,Internal Audit,2025-03-28,16,Carlos Silva,Data Protection|Individual Rights,Scheduled
+21,Basel III Capital Review,External Audit,2025-06-18,17,Standard Bank Auditors,Capital Requirements|Liquidity,Scheduled
+22,UAE PDPL Compliance Audit,Internal Audit,2025-04-08,18,Ahmed Hassan,Personal Data Protection|Cross-border Transfers,Scheduled
+23,CBAM Carbon Border Audit,External Audit,2025-05-30,19,DNV GL,Carbon Emissions|Border Adjustments,Scheduled
+24,PIPEDA Privacy Assessment,Internal Audit,2025-03-05,20,Rachel Thompson,Personal Information Protection,Scheduled
+25,GDPR Breach Response Drill,Internal Audit,2024-12-15,4,Emma Thompson,Incident Response|Notification Procedures,Completed
+26,PCI DSS Penetration Testing,External Audit,2024-11-20,1,Rapid7,Network Security|Vulnerability Assessment,Completed
+27,HIPAA Risk Assessment,Internal Audit,2024-10-12,2,Michael Rodriguez,Risk Analysis|Safeguards Review,Completed
