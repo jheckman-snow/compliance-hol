@@ -1,142 +1,69 @@
 # Snowflake Intelligence HOL
-**Utilize Agentic AI aginst your Snowflake data and Unstructured Data**
 
-Snowflake Intelligence, a new application, empowers users to create and interact with data agents. These agents can access data from platforms like Snowflake and Salesforce to generate visualizations, create simple applications, and facilitate action on insights. Powered by Cortex LLM functions, Analyst, and Search, Snowflake Intelligence offers a curated, enterprise-ready application experience.
+## Overview
 
-The ideal customer for a Snowflake Intelligence user is a business user, such as a sales rep, executive, or marketing manager, who is looking for insights and to take action based on data in their organization. Traditionally, they would have relied on BI applications or manually navigated file search (like SharePoint and Google Drive) and taken manual actions that can now be enhanced and automated with data agents.
+Global Risk Company's AI-powered regulatory compliance platform processes three distinct types of data to enable intelligent cross-referencing between structured internal compliance data and unstructured external regulatory information.
 
----
+**Structured Data**: Traditional relational data stored in CSV format with defined schemas
+- `client_organizations.csv` - Client companies using the Global Risk Company platform with their regulatory focus areas
+- `audit_events.csv` - Scheduled and completed compliance audits across clients
 
-## 🎬 Lab Overview Video
+**Semi-Structured Data**: JSON formatted security incident reports that provide context about security events
+- `security_incidents.json` - Security incident records with nested objects containing asset information, mitigation steps, and risk assessments
 
-- Watch this [3 minute overview video](https://drive.google.com/file/d/1TVZjYmkGKbeNUVyUVC96Y8co7WANWwxY/view?usp=sharing)
+**External Data**: Regulatory intelligence accessed via Snowflake Data Sharing
+- Real-time regulatory updates and compliance frameworks
+- AI-powered analysis and cross-referencing capabilities
 
----
+## Lab Steps
 
-## 🛠️ Hands-On Lab Overview
+This hands-on lab is divided into 7 streamlined steps that progressively build Global Risk Company's comprehensive compliance intelligence platform:
 
-In this hands-on lab, you'll step into the shoes of **a Snowflake Developer** tasked with **creating a new agent for Snowflake Intelligence**.
+### Data Foundation
+1. [**Step 1: Getting Data Into Snowflake**](lab_instructions/step-01.md) - Load structured and semi-structured compliance data with view creation
+2. [**Step 2: External Data Integration via Snowflake Data Sharing**](lab_instructions/step-02.md) - Access external regulatory intelligence with AI analysis
 
-### 📋 What You’ll Do:
-This lab explores accessing festival data (ticket sales, customer details, events) and a parsed result of multiple bands' contract information. We'll join these datasets and build a semantic model using synonyms and defining relationships among the tables. This model will then be used in a prompt to retrieve data from Snowflake for end users via a simple chat-like interface. Consequently, users can obtain answers and data visualizations without needing SQL knowledge, understanding unstructured data queries, or data modeling concepts.
+### AI Intelligence Setup
+3. [**Step 3: Snowflake Intelligence Setup & Semantic Models**](lab_instructions/step-03.md) - Configure platform and create semantic model
+4. [**Step 4: Create Cortex Search Service**](lab_instructions/step-04.md) - Build document search for regulatory content
+5. [**Step 5: Create Comprehensive Compliance Agent**](lab_instructions/step-05.md) - Build unified agent with semantic model and search capabilities
 
-- **Ingest data into a database** 
-- **Create a simple agent** 
-- **Create a semantic view** 
-- **Create a smarter agent using the semantic layer**: 
-- **Create a search service**: 
-- **Update the smart agent to also use the search service**: 
-- **Utilize Snowflake Intelligence**: 
+### Testing and Completion
+6. [**Step 6: Test Complete Compliance Intelligence**](lab_instructions/step-06.md) - Comprehensive testing across all data sources
+7. [**Step 7: Review and Lab Completion**](lab_instructions/step-07.md) - Lab summary, validation, and cleanup
 
+## Learning Objectives
 
+By completing this lab, you will learn how to:
+- Load and process multiple data formats in Snowflake (structured, semi-structured, external)
+- Leverage Snowflake Data Sharing for external intelligence integration
+- Use Cortex AISQL functions for AI-powered regulatory analysis
+- Build comprehensive Snowflake Intelligence agents with dual semantic models
+- Create and configure semantic models for intelligent data querying
+- Implement document search using Cortex Search for unstructured content
+- Cross-reference internal compliance data with external regulatory intelligence
+- Test and validate cross-source AI intelligence capabilities
 
-### ⏲️ Estimated Lab Timeline
+## Key Technologies Demonstrated
 
-Provide a brief agenda to help SEs understand pacing:
+- **Snowflake Data Sharing**: Secure external data integration
+- **Cortex AISQL Functions**: AI-powered text analysis and extraction
+- **Snowflake Intelligence**: Natural language querying platform
+- **Semantic Models**: Intelligent data relationship modeling
+- **Cortex Search**: Unstructured document search and analysis
+- **Multi-Format Data Integration**: CSV, JSON, and shared data sources
 
-- [Snowflake Intelligence Lab](/lab_instructions/readme.md)
+## Prerequisites
 
-- **Phase 1 Env setup):** ~5 min
-- **Phase 2 creating sematic and cortex search:** ~30 min
-- **Phase 3 Testing Results in Snowflake Intelligence:** ~10 min
-  
----
+- Access to a Snowflake account with SYSADMIN role
+- Basic familiarity with SQL
+- Understanding of compliance and regulatory concepts
 
-## 📖 Table of Contents
+## Estimated Time
 
-- [Why this Matters](#-why-this-matters)
-- [Suggested Discovery Questions](#-suggested-discovery-questions)
-- [Repository Structure](#-repository-structure)
-- [Prerequisites & Setup Details](#-prerequisites--setup-details)
-- [Troubleshooting & FAQ](#%EF%B8%8F-troubleshooting--faq)
-- [Cleanup & Cost-Stewardship Procedures](#-cleanup--cost-stewardship-procedures)
-- [Links to Internal Resources & Helpful Documents](#-links-to-internal-resources--helpful-documents)
-
----
-
-## 📌 Why this Matters
-
-  * **Self-serve data exploration:** Create charts and get instant answers using natural language. With an intuitive interface powered by agentic AI, enable teams to discover trends and analyze data without technical expertise or waiting for custom dashboards.
-  * **Democratize intelligence:** Access and analyze thousands of data sources simultaneously, going beyond basic AI tools that only handle single documents.
-  * **Comprehensive integration:** Seamlessly analyze structured and unstructured data together. Connect insights from spreadsheets, documents, images, and databases simultaneously.
-  * **Automatic security:** Existing Snowflake security controls, including role-based access and data masking, automatically apply to all AI interactions and conversations.
-
----
-
-## ❓ Suggested Discovery Questions
-
-Provide **5 to 6 open-ended questions** for customer conversations related to this HOL.
-
-- "How are you currently handling creating agentic AI solutions that search both structured data and unstructured data?"
-- "What metrics matter most when evaluating speed to solutions and easy access from multiple personas?"
-- "Have you faced any security or compliance roadblocks with utilizeing LLMs and Agentic AI?"
-- "How would you customize this pattern for your environment?"
+Complete lab: 1-1.5 hours (streamlined 7-step version with simplified testing)
 
 ---
 
-## 📂 Repository Structure
+**Ready to get started?** Begin with [Step 1: Getting Data Into Snowflake](lab_instructions/step-01.md)
 
-```bash
-├── README.md           # Main entry point
-├── config             # Configuration for DORA and Grading
-├── data               # Datasets (CSV, JSON) or external links
-├── images             # Diagrams and visual assets
-├── lab_instructions    # Step-by-step detailed instructions
-│ ├── images            # images for lab walkthrough
-└── troubleshooting    # Common issues and resolutions
-```
----
-
-## ✅ Prerequisites & Setup Details
-
-Internally helpful setup requirements:
-
-- **Knowledge prerequisites:** A basic understanding of LLMs and how you can utilize them. Basic Snowflake knowledge to move around the product as needed.
-- **Account and entitlement checks:** This is listed in the [lab directions](/lab_instructions/readme.md)
-- **Hardware/software:** All browsers, AWS accounts recommended due to the LLM availability
-
----
-
-## ⚠️ Troubleshooting & FAQ
-
-Common errors and resolutions:
-
-> - **Issue:**  Permissions issues
-> - **Cause:**  Using the incorrect Role
-> - **Solution:** Make sure your default role is setup correctly and has the correct access to the warehouses that are used to run the agents
-
-> - **Issue:**  Agent Stuck on Initialization
-> - **Cause:**  After creating the agent, something is incorrect and the agent stays in 'initializion' state
-> - **Solution:** Try running the following sql to understand what is going on with the agent as there is an error column:
-```sql
-DESC CORTEX SEARCH SERVICE FESTIVAL_CONTRACT_SEARCH 
-```
----
-
-## 🧹 Cleanup & Cost-Stewardship Procedures
-
-🗑 **Cleanup Instructions:**
-- In the lab we setup the cortex search service to refresh daily. Go ahead and delete this cortex search service
-- Drop the HOL database if no long desired
-```sql
-drop database SI_EVENTS_HOL
-```
----
-
-## 🔗 Links to Internal Resources & Helpful Documents
-
-- [Snowflake Documentation](https://docs.snowflake.com/en/user-guide/snowflake-cortex/snowflake-intelligence)
-- [Slack #Feat-Snowflake-Intelligence](https://snowflake.enterprise.slack.com/archives/C080CBY663U)
-
----
-
-## 👤 Author & Support
-
-**Lab created by:** Dan Murphy – SE Enablement Senior Manager 
-- **Created on:** July 28, 2025 | **Last updated:** July 28, 2025
-
-💬 **Need Help or Have Feedback?**  
-- Slack DM: [@dan.murphy](https://snowflake.enterprise.slack.com/team/WEJR92JS2)  
-- Email: [dan.murphy@snowflake.com](mailto:dan.murphy@snowflake.com)
-
-🌟 *We greatly value your feedback to continuously improve our HOL experiences!*

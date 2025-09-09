@@ -1,6 +1,6 @@
 # Step 1: Getting Data Into Snowflake
 
-[← Back to Index](index.md) | [Next: Step 2 →](step-02.md)
+[← Back to Index](../README.md) | [Next: Step 2 →](step-02.md)
 
 Global Risk Company's AI-powered regulatory compliance platform processes three distinct types of data to enable intelligent cross-referencing between structured internal compliance data and unstructured external regulatory information.
 
@@ -243,4 +243,4 @@ This structured view will be used in Step 3 when creating our semantic model, al
 
 **Next Step:** [Step 2: External Data Integration via Snowflake Data Sharing](step-02.md)
 
-[← Back to Index](index.md) | [Next: Step 2 →](step-02.md)
+[← Back to Index](../README.md) | [Next: Step 2 →](step-02.md)

@@ -1,6 +1,6 @@
 # Step 7: Review and Lab Completion
 
-[← Previous: Step 6](step-06.md) | [Back to Index](index.md)
+[← Previous: Step 6](step-06.md) | [Back to Index](../README.md)
 
 Congratulations! You have successfully completed the Global Risk Company Snowflake Intelligence HOL. Let's review what we've accomplished and complete any final steps.
 
@@ -107,6 +107,6 @@ To keep your Global Risk Compliance Agent for future use:
 
 ---
 
-**Lab Complete!** You've successfully built a comprehensive AI-powered compliance intelligence platform. Return to the [Index](index.md) to review all steps or explore additional Snowflake capabilities.
+**Lab Complete!** You've successfully built a comprehensive AI-powered compliance intelligence platform. Return to the [Index](../README.md) to review all steps or explore additional Snowflake capabilities.
 
-[← Previous: Step 6](step-06.md) | [Back to Index](index.md)
+[← Previous: Step 6](step-06.md) | [Back to Index](../README.md)

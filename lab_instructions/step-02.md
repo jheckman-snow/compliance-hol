@@ -1,6 +1,6 @@
 # Step 2: External Data Integration via Snowflake Data Sharing
 
-[← Previous: Step 1](step-01.md) | [Back to Index](index.md) | [Next: Step 3 →](step-03.md)
+[← Previous: Step 1](step-01.md) | [Back to Index](../README.md) | [Next: Step 3 →](step-03.md)
 
 Now that we have our foundation data loaded (structured and semi-structured), we'll demonstrate how Global Risk Company accesses external regulatory intelligence through Snowflake Data Sharing. This represents the third data type in our progressive strategy: unstructured external data from regulatory bodies and compliance frameworks.
 
@@ -134,4 +134,4 @@ This external data integration step demonstrates how Global Risk Company's AI-po
 
 **Next Step:** [Step 3: Snowflake Intelligence Setup](step-03.md)
 
-[← Previous: Step 1](step-01.md) | [Back to Index](index.md) | [Next: Step 3 →](step-03.md)
+[← Previous: Step 1](step-01.md) | [Back to Index](../README.md) | [Next: Step 3 →](step-03.md)

@@ -1,6 +1,6 @@
 # Step 6: Test Complete Compliance Intelligence
 
-[← Previous: Step 5](step-05.md) | [Back to Index](index.md) | [Next: Step 7 →](step-07.md)
+[← Previous: Step 5](step-05.md) | [Back to Index](../README.md) | [Next: Step 7 →](step-07.md)
 
 Now we'll comprehensively test our Global Risk Compliance Agent across all data sources: structured internal data, semi-structured security incidents, and external regulatory documents.
 
@@ -143,4 +143,4 @@ Your Global Risk Compliance Agent now demonstrates comprehensive AI-driven compl
 
 **Next Step:** [Step 7: Review and Lab Completion](step-07.md)
 
-[← Previous: Step 5](step-05.md) | [Back to Index](index.md) | [Next: Step 7 →](step-07.md)
+[← Previous: Step 5](step-05.md) | [Back to Index](../README.md) | [Next: Step 7 →](step-07.md)

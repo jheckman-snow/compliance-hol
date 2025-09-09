@@ -1,6 +1,6 @@
 # Step 4: Create Cortex Search Service
 
-[← Previous: Step 3](step-03.md) | [Back to Index](index.md) | [Next: Step 5 →](step-05.md)
+[← Previous: Step 3](step-03.md) | [Back to Index](../README.md) | [Next: Step 5 →](step-05.md)
 
 Now we'll create a Cortex Search service using the shared regulatory database to enable natural language searching of compliance document content. This will complement our semantic model by providing unstructured text search capabilities.
 
@@ -136,4 +136,4 @@ The search service is now ready to be integrated with our compliance agent to pr
 
 **Next Step:** [Step 5: Create Comprehensive Compliance Agent](step-05.md)
 
-[← Previous: Step 3](step-03.md) | [Back to Index](index.md) | [Next: Step 5 →](step-05.md)
+[← Previous: Step 3](step-03.md) | [Back to Index](../README.md) | [Next: Step 5 →](step-05.md)

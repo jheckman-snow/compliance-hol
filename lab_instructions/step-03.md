@@ -1,6 +1,6 @@
 # Step 3: Snowflake Intelligence Setup & Semantic Models
 
-[← Previous: Step 2](step-02.md) | [Back to Index](index.md) | [Next: Step 4 →](step-04.md)
+[← Previous: Step 2](step-02.md) | [Back to Index](../README.md) | [Next: Step 4 →](step-04.md)
 
 Now that we have our data foundation in place (structured, semi-structured, and external data), we'll set up Snowflake Intelligence and create semantic models for our compliance datasets.
 
@@ -94,4 +94,4 @@ What is the average risk score for incidents in the financial services sector?
 
 **Next Step:** [Step 4: Create Comprehensive Compliance Agent](step-04.md)
 
-[← Previous: Step 2](step-02.md) | [Back to Index](index.md) | [Next: Step 4 →](step-04.md)
+[← Previous: Step 2](step-02.md) | [Back to Index](../README.md) | [Next: Step 4 →](step-04.md)

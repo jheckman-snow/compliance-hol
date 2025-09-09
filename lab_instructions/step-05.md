@@ -1,6 +1,6 @@
 # Step 5: Create Comprehensive Compliance Agent
 
-[← Previous: Step 4](step-04.md) | [Back to Index](index.md) | [Next: Step 6 →](step-06.md)
+[← Previous: Step 4](step-04.md) | [Back to Index](../README.md) | [Next: Step 6 →](step-06.md)
 
 Now we'll create a comprehensive Global Risk Company compliance agent that incorporates both our semantic model and the Cortex Search service to provide intelligent analysis across all our data sources.
 
@@ -101,4 +101,4 @@ The agent is now ready for comprehensive testing with both structured queries an
 
 **Next Step:** [Step 6: Test Agent with Multi-Source Queries](step-06.md)
 
-[← Previous: Step 4](step-04.md) | [Back to Index](index.md) | [Next: Step 6 →](step-06.md)
+[← Previous: Step 4](step-04.md) | [Back to Index](../README.md) | [Next: Step 6 →](step-06.md)
